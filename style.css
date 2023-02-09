@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Birthstone&family=Caramel&family=Charm:wght@700&family=Chivo+Mono&family=Dancing+Script:wght@500&family=Orbitron&family=Pacifico&family=Petit+Formal+Script&family=Poppins&family=Prosto+One&family=Righteous&family=Roboto:wght@400;500&family=Rubik&family=Source+Sans+Pro&family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Birthstone&family=Caramel&family=Charm:wght@700&family=Chivo+Mono&family=Dancing+Script:wght@500&family=Pacifico&family=Petit+Formal+Script&family=Poppins&family=Prosto+One&family=Righteous&family=Roboto:wght@400;500&family=Rubik&family=Unbounded&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DA22FF;
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+    background: linear-gradient(to right, #7803df, #72f5f5);
+}
+
+h1{
+    font-size: 80px;
+    font-family: pacifico;
+    text-shadow: 0px 0px 6px rgba(192, 145, 234, 0.9);
+}
+
+p{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: roboto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(to right, #6701c0);
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.invalid{
+    font-size: 12px;
+}
+
+.btn-block,
+.card-header {
+    color: #fff;
+    background: linear-gradient(to right, #6701c0, #02fbfb);
+    border: none;
+    font-size: 18px;
+}
+
+@media (max-width: 600.98px) {
+
+    .col-sm-5{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media (max-width: 600.98px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-sm-5{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+
